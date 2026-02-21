@@ -9,7 +9,8 @@ import {
   margheritaPizza, 
   dragonRoll, 
   artisanSourdough, 
-  grilledSalmon 
+  grilledSalmon,
+  pierogiCraft
 } from '../assets/images/images';
 import '../styles.css';
 
@@ -44,7 +45,7 @@ function Home() {
       name: "Traditional Pierogi",
       restaurant: "Pierogi Craft",
       description: "Handmade pierogi with traditional fillings",
-      image: artisanSourdough
+      image: pierogiCraft
     },
     {
       id: 4,
